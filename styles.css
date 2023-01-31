@@ -22,6 +22,28 @@ hr {
   background-color: rgba(0, 0, 0, 0.1);
   border: none;
 }
+
+/* ============= LOADER STYLES =========== */
+
+.loader {
+  margin: 200px auto;
+  border: 20px solid #eaf0f6;
+  border-radius: 50%;
+  border-top: 20px solid #3272f6;
+  width: 200px;
+  height: 200px;
+  animation: spinner 4s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* header start */
 .big-header {
   position: fixed;
